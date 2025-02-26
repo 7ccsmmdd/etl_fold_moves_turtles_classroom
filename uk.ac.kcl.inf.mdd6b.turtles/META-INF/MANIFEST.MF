@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
-Automatic-Module-Name: uk.ac.kcl.inf.mdd6b.turtles
+Automatic-Module-Name: uk.ac.kcl.inf.mdd6a.turtles
 Bundle-ManifestVersion: 2
-Bundle-Name: uk.ac.kcl.inf.mdd6b.turtles
+Bundle-Name: uk.ac.kcl.inf.mdd6a.turtles
 Bundle-Vendor: My Company
 Bundle-Version: 1.0.0.qualifier
-Bundle-SymbolicName: uk.ac.kcl.inf.mdd6b.turtles; singleton:=true
+Bundle-SymbolicName: uk.ac.kcl.inf.mdd6a.turtles; singleton:=true
 Bundle-ActivationPolicy: lazy
 Require-Bundle: org.eclipse.xtext,
  org.eclipse.xtext.xbase,
@@ -14,18 +14,18 @@ Require-Bundle: org.eclipse.xtext,
  org.eclipse.xtext.util,
  org.eclipse.emf.common,
  org.antlr.runtime;bundle-version="[3.2.0,3.2.1)",
- io.github.classgraph;bundle-version="4.8.149",
- org.aopalliance;bundle-version="1.0.0"
+ io.github.classgraph.classgraph,
+ org.aopalliance
 Bundle-RequiredExecutionEnvironment: JavaSE-11
-Export-Package: uk.ac.kcl.inf.mdd6b.services,
- uk.ac.kcl.inf.mdd6b.parser.antlr,
- uk.ac.kcl.inf.mdd6b.serializer,
- uk.ac.kcl.inf.mdd6b.validation,
- uk.ac.kcl.inf.mdd6b.turtles.impl,
- uk.ac.kcl.inf.mdd6b.turtles.util,
- uk.ac.kcl.inf.mdd6b.parser.antlr.internal,
- uk.ac.kcl.inf.mdd6b,
- uk.ac.kcl.inf.mdd6b.turtles,
- uk.ac.kcl.inf.mdd6b.scoping,
- uk.ac.kcl.inf.mdd6b.generator
+Export-Package: uk.ac.kcl.inf.mdd6a.services,
+ uk.ac.kcl.inf.mdd6a.parser.antlr,
+ uk.ac.kcl.inf.mdd6a.serializer,
+ uk.ac.kcl.inf.mdd6a.validation,
+ uk.ac.kcl.inf.mdd6a.turtles.impl,
+ uk.ac.kcl.inf.mdd6a.turtles.util,
+ uk.ac.kcl.inf.mdd6a.parser.antlr.internal,
+ uk.ac.kcl.inf.mdd6a,
+ uk.ac.kcl.inf.mdd6a.turtles,
+ uk.ac.kcl.inf.mdd6a.scoping,
+ uk.ac.kcl.inf.mdd6a.generator
 Import-Package: org.apache.log4j
